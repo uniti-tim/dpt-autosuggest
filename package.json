@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "prop-types": "^15.5.10",
-    "dpt-autowhatever": "github:uniti-tim/dpt-autowhatever#a047b2e27cc243cb3e402ee3243c65bf5e6efef3",
+    "dpt-autowhatever": "github:uniti-tim/dpt-autowhatever#8420182b82cb639921ec379e8873966d5f223f8c",
     "shallow-equal": "^1.0.0"
   },
   "peerDependencies": {
