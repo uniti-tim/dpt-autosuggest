@@ -1,9 +1,4 @@
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-var defaultTheme = exports.defaultTheme = {
+export const defaultTheme = {
   container: 'react-autosuggest__container',
   containerOpen: 'react-autosuggest__container--open',
   input: 'react-autosuggest__input',
@@ -20,10 +15,10 @@ var defaultTheme = exports.defaultTheme = {
   sectionTitle: 'react-autosuggest__section-title'
 };
 
-var mapToAutowhateverTheme = exports.mapToAutowhateverTheme = function mapToAutowhateverTheme(theme) {
-  var result = {};
+export const mapToAutowhateverTheme = theme => {
+  let result = {};
 
-  for (var key in theme) {
+  for (const key in theme) {
     switch (key) {
       case 'suggestionsContainer':
         result['itemsContainer'] = theme[key];
