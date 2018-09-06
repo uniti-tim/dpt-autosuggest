@@ -1,13 +1,13 @@
 {
-  "name": "react-autosuggest",
-  "version": "9.4.0",
-  "description": "WAI-ARIA compliant React autosuggest component",
+  "name": "dpt-autosuggest",
+  "version": "1.0.0",
+  "description": "DPT Custom Autosuggest Component",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/moroshko/react-autosuggest.git"
+    "url": "https://github.com/uniti-tim/dpt-autosuggest"
   },
-  "author": "Misha Moroshko <michael.moroshko@gmail.com>",
+  "author": "Timothy Carambat - Orginally Misha Moroshko",
   "scripts": {
     "start": "mkdir -p demo/dist && npm run copy-static-files && node server",
     "prettier": "prettier --single-quote --write \".*.js\" \"*.js\" \"demo/src/**/*.js\" \"demo/standalone/app.js\" \"src/**/*.js\" \"test/**/*.js\"",
@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "prop-types": "^15.5.10",
-    "react-autowhatever": "^10.1.2",
+    "dpt-autowhatever": "github:uniti-tim/dpt-autowhatever#3ef8e17879602990d190580f3236756a09217ae4",
     "shallow-equal": "^1.0.0"
   },
   "peerDependencies": {
